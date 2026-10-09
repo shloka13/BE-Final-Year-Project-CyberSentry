@@ -1,0 +1,7 @@
+class,flagged_rate,support
+Benign,0.010000644048632828,279482
+Botnet,0.0,292
+BruteForce,0.0,1819
+DoS,0.7215433150814085,27577
+Infiltration,0.4,5
+WebAttack,0.0,321

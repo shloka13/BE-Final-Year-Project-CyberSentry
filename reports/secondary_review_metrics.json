@@ -1,0 +1,56 @@
+{
+  "val": {
+    "split": "val",
+    "total_flows": 309496,
+    "total_flagged_flows": 42742,
+    "review_rate": 0.138102,
+    "review_rate_pct": "13.81%",
+    "botnet_flows_flagged": 198,
+    "botnet_flows_total": 292,
+    "botnet_flagging_rate": 0.678082,
+    "botnet_flagging_rate_pct": "67.81%",
+    "benign_flows_flagged": 39832,
+    "benign_flows_total": 279482,
+    "benign_false_positive_rate": 0.142521,
+    "benign_fpr_pct": "14.2521%",
+    "missing_or_unusable_features": {
+      "Subflow Fwd Bytes": 0,
+      "Bwd Packet Length Min": 0,
+      "Max Packet Length": 0
+    },
+    "rule_config": {
+      "name": "zero_fwd_minimal_packet_size",
+      "max_fwd_bytes": 0.0,
+      "max_bwd_packet_min": 6.0,
+      "max_packet_length": 6.0,
+      "target_ports": null
+    }
+  },
+  "test": {
+    "split": "test",
+    "total_flows": 309373,
+    "total_flagged_flows": 38244,
+    "review_rate": 0.123618,
+    "review_rate_pct": "12.36%",
+    "botnet_flows_flagged": 293,
+    "botnet_flows_total": 293,
+    "botnet_flagging_rate": 1.0,
+    "botnet_flagging_rate_pct": "100.00%",
+    "benign_flows_flagged": 35473,
+    "benign_flows_total": 279096,
+    "benign_false_positive_rate": 0.1271,
+    "benign_fpr_pct": "12.7100%",
+    "missing_or_unusable_features": {
+      "Subflow Fwd Bytes": 0,
+      "Bwd Packet Length Min": 0,
+      "Max Packet Length": 0
+    },
+    "rule_config": {
+      "name": "zero_fwd_minimal_packet_size",
+      "max_fwd_bytes": 0.0,
+      "max_bwd_packet_min": 6.0,
+      "max_packet_length": 6.0,
+      "target_ports": null
+    }
+  }
+}

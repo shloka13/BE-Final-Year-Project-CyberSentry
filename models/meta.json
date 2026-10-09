@@ -151,5 +151,14 @@
     "Idle Min": 0.0
   },
   "block_size": 1000,
-  "seed": 42
+  "seed": 42,
+  "trained_models": [
+    "lr",
+    "rf",
+    "xgb"
+  ],
+  "cap_benign": 200000,
+  "cap_attack": 60000,
+  "anomaly_threshold": 0.6246267380204228,
+  "anomaly_quantile": 0.99
 }
