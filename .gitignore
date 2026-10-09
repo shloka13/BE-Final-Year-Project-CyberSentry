@@ -7,4 +7,3 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*.pkl
 data/processed/*.parquet
-models/*.joblib
